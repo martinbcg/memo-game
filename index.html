@@ -1,0 +1,49 @@
+<!doctype HTML>
+<html manifest="/cache.manifest">
+<head>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="js/game.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+	    game.init_randomize();
+		$('#start-button').click(function(){game.start_game()});
+		$('.cover').click(function(t){game.select(t)});
+	});
+</script>
+
+<link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+
+	<div class="position-top">
+		<div class="box position-left">
+			<div><a href="#"><img class="cover" src="img/cover.jpg" id="cover-1" alt="" /></a></div>
+			<div><img class="object" id="object-1" alt="No se pudo cargar la imagen." /></div>
+		</div>
+		<div class="box position-right">
+			<a href="#"><img class="cover" src="img/cover.jpg" id="cover-2" alt="" /></a>
+			<img class="object" id="object-2" alt="No se pudo cargar la imagen." />
+		</div>
+	</div>
+	<div class="position-bottom">
+		<div class="box position-left">
+			<a href="#"><img class="cover" src="img/cover.jpg" id="cover-3" alt="" /></a>
+			<img class="object" id="object-3" alt="No se pudo cargar la imagen." />
+		</div>
+		<div class="box position-right">
+			<a href="#"><img class="cover" src="img/cover.jpg" id="cover-4" alt="" /></a>
+			<img class="object" id="object-4" alt="No se pudo cargar la imagen." />
+		</div>
+	</div>
+
+	<div id="game-container">
+		<a href="#" id="start-button"><div><span>Comenzar!</span></div></a>
+
+		<img src="" id="random-object" alt="" />
+	</div>
+
+</body>
+</html>
