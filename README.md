@@ -1,7 +1,7 @@
 Juego de memoria
 ================
 
-Juego de memoria para "Developers Weekend for ONGs" (https://plus.google.com/events/cbmoq89dju87lbfouc2s1kt2t0k)
+Juego de memoria para "Developers Weekend for ONGs" (https://plus.google.com/events/cbmoq89dju87lbfouc2s1kt2t0k) en beneficio de [ASDRA](http://www.asdra.org.ar/).
 
 ##Demo online
 http://martinb35.github.com/memo-game/src/
